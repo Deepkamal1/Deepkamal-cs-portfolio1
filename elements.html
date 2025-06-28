@@ -5,228 +5,286 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-<head>
-	<title>Elements Reference - Massively by HTML5 UP</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	<!-- FontAwesome CDN for icons -->
-	<link
-	  rel="stylesheet"
-	  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-	  integrity="sha512-p6YIQ+1+awNlMr0tjXR2Np0VDEpe7yO7JqahxkGxdLlOH7GL15PeFThbEysFG0wlQhFTmW3S2n4H+EY+6I8jlA=="
-	  crossorigin="anonymous"
-	  referrerpolicy="no-referrer"
-	/>
-	<style>
-		/* Back to Home button styling */
-		#back-home {
-			position: fixed;
-			top: 20px;
-			left: 20px;
-			background: #0078d7;
-			color: white;
-			padding: 10px 15px;
-			border-radius: 5px;
-			text-decoration: none;
-			font-weight: bold;
-			box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-			transition: background 0.3s ease;
-			z-index: 1000;
-			display: flex;
-			align-items: center;
-			gap: 8px;
-		}
-		#back-home:hover {
-			background: #005fa3;
-		}
-	</style>
-</head>
-<body class="is-preload">
+	<head>
+		<title>Elements Reference - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- Font Awesome for icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+		<style>
+			/* Additional styles */
+			#footer .row {
+				display: flex;
+				gap: 3em;
+				margin-top: 3em;
+			}
+			#footer .col-6 {
+				flex: 1;
+			}
+			.cv-link {
+				display: inline-block;
+				background-color: #0078d7;
+				color: white;
+				padding: 12px 20px;
+				border-radius: 6px;
+				text-decoration: none;
+				font-weight: 600;
+				transition: background-color 0.3s ease;
+				margin-top: 1em;
+			}
+			.cv-link:hover {
+				background-color: #005fa3;
+			}
+			#footer form label {
+				font-weight: 600;
+			}
+			#footer form input[type="text"],
+			#footer form input[type="email"],
+			#footer form textarea {
+				width: 100%;
+				padding: 8px;
+				margin-top: 4px;
+				margin-bottom: 12px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				font-family: inherit;
+			}
+			#footer form input[type="submit"].primary {
+				background-color: #0078d7;
+				color: white;
+				border: none;
+				padding: 10px 24px;
+				cursor: pointer;
+				border-radius: 5px;
+				font-weight: 600;
+			}
+			#footer form input[type="submit"].primary:hover {
+				background-color: #005fa3;
+			}
+			@media (max-width: 768px) {
+				#footer .row {
+					flex-direction: column;
+				}
+			}
+			/* Back to home button styling */
+			.back-home {
+				display: inline-flex;
+				align-items: center;
+				background-color: #444;
+				color: white;
+				padding: 10px 16px;
+				border-radius: 6px;
+				text-decoration: none;
+				font-weight: 600;
+				margin: 3em auto 2em auto;
+				width: max-content;
+				cursor: pointer;
+				transition: background-color 0.3s ease;
+			}
+			.back-home:hover {
+				background-color: #222;
+			}
+			.back-home i {
+				margin-right: 8px;
+				font-size: 1.1em;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
 
-	<!-- Back to Home Button -->
-	<a href="index.html" id="back-home" title="Back to Home">
-		<i class="fas fa-home"></i> Home
-	</a>
+		<!-- Wrapper -->
+		<div id="wrapper">
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">Skills and Experience</a>
+			</header>
 
-		<!-- Header -->
-		<header id="header">
-			<a href="index.html" class="logo">Skills and Experience</a>
-		</header>
-		<p> I have a strong foundational knowledge in computer science, supported by practical experience and independent study. My technical skills include:</p>
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li>Programming: Python, C, basic Java</li>
+					<li>Web Development: HTML5, CSS3, basic JavaScript</li>
+					<li>Computer Fundamentals: Operating Systems, Networks, and Databases</li>
+					<li>Problem Solving and Algorithmic Thinking</li>
+					<li>Basic understanding of Data Structures and Object-Oriented Programming</li>
+				</ul>
+				<p>Currently, I am further enhancing my skills through academic projects, self-learning, and practical assignments related to software development and system design.</p>
+			</nav>
 
-		<!-- Nav -->
-		<nav id="nav">
-			<ul>
-				<li>Programming: Python, C, basic Java</li>
-				<li>Web Development: HTML5, CSS3, basic JavaScript</li>
-				<li>Computer Fundamentals: Operating Systems, Networks, and Databases</li>
-				<li>Problem Solving and Algorithmic Thinking</li>
-				<li>Basic understanding of Data Structures and Object-Oriented Programming</li>
-			</ul>
-			<p>Currently, I am further enhancing my skills through academic projects, self-learning, and practical assignments related to software development and system design.</p>
-		</nav>
+			<!-- Main -->
+			<div id="main">
 
-		<!-- Main -->
-		<div id="main">
+				<!-- Post -->
+				<section class="post">
+					<header class="major">
+						<h1>About me</h1>
+					</header>
 
-			<!-- Post -->
-			<section class="post">
-				<header class="major">
-					<h1>About me<br /></h1>
-				</header>
+					<!-- Text stuff -->
+					<p>I am a dedicated and curious learner with a foundation in Computer Science. I have experience tutoring students in basic computing concepts and programming. I am comfortable working with HTML, CSS, Python, and C, and I understand core principles of data structures, algorithms, and computer systems. I continuously strive to expand my technical skills through hands-on practice, academic projects, and self-study. My goal is to apply my knowledge to solve real-world problems and build meaningful tech solutions.</p>
 
-				<!-- Text stuff -->
-				<p>I am a dedicated and curious learner with a foundation in Computer Science. I have experience tutoring students in basic computing concepts and programming. I am comfortable working with HTML, CSS, Python, and C, and I understand core principles of data structures, algorithms, and computer systems. I continuously strive to expand my technical skills through hands-on practice, academic projects, and self-study. My goal is to apply my knowledge to solve real-world problems and build meaningful tech solutions.</p>
+					<!-- Lists -->
+					<h2>Lists</h2>
+					<div class="row">
+						<div class="col-6 col-12-small">
 
-				<!-- Lists -->
-
-				<h2>Lists</h2>
-				<div class="row">
-					<div class="col-6 col-12-small">
-
-						<h3>Unordered</h3>
-						<ul>
-							<li>Programming: Python, C, HTML, CSS</li>
-							<li>Basic Web Development</li>
-							<li>Computer Fundamentals & Troubleshooting</li>
-							<li>Self-learning & Tutoring Experience</li>
-						</ul>
-
-						<h3>Alternate</h3>
-						<ul class="alt">
-							<li>Good understanding of Algorithms & Logic</li>
-							<li>Worked with small academic projects</li>
-							<li>Practiced using Visual Studio Code & Git</li>
-							<li>Strong interest in software development</li>
-						</ul>
-					</div>
-					<div class="col-6 col-12-small">
-
-						<h3>Ordered</h3>
-						<ol>
-							<li>Learned HTML, CSS, Python basics</li>
-							<li>Tutored peers in Computer Science in 2022</li>
-							<li>Completed foundational year at GISMA</li>
-							<li>Building skills in Java and Algorithms</li>
-							<li>Preparing for Bachelor's in CS/AI</li>
-						</ol>
-						<!-- Portfolio & Resume Section -->
-						<section>
-							<h3>Portfolio & Resume</h3>
-							<ul class="icons alt">
-								<!-- Resume Download -->
-								<li>
-									<a href="cv/Deepkamal-CV.pdf" class="icon solid fa-file-pdf" download>
-										<span class="label">Download Resume</span>
-									</a>
-								</li>
-
-								<!-- GitHub Portfolio -->
-								<li>
-									<a href="https://deepkamal1.github.io/Deepkamal-cs-portfolio1/" class="icon brands fa-github" target="_blank">
-										<span class="label">GitHub Portfolio</span>
-									</a>
-								</li>
+							<h3>Unordered</h3>
+							<ul>
+								<li>Programming: Python, C, HTML, CSS</li>
+								<li>Basic Web Development</li>
+								<li>Computer Fundamentals & Troubleshooting</li>
+								<li>Self-learning & Tutoring Experience</li>
 							</ul>
-						</section>
 
-						<!-- Definition Section -->
-						<section>
-							<h3>Definition</h3>
-							<dl>
-								<dt>Frontend Development</dt>
-								<dd><p>Building user interfaces using HTML, CSS, and basic JavaScript.</p></dd>
-								<dt>Programming Basics</dt>
-								<dd><p>Understanding core concepts like loops, conditions, and functions using Python and C.</p></dd>
-								<dt>Tutoring Experience</dt>
-								<dd><p>Taught basic computing and programming to students, helping them understand logic and problem-solving.</p></dd>
-							</dl>
-						</section>
+							<h3>Alternate</h3>
+							<ul class="alt">
+								<li>Good understanding of Algorithms & Logic</li>
+								<li>Worked with small academic projects</li>
+								<li>Practiced using Visual Studio Code & Git</li>
+								<li>Strong interest in software development</li>
+							</ul>
+						</div>
+						<div class="col-6 col-12-small">
 
-						<!-- Call-to-Action Buttons -->
-						<ul class="actions">
-							<li><a href="https://github.com/deepkamal1" class="button primary" target="_blank">My GitHub</a></li>
-							<li><a href="cv/Deepkamal-CV.pdf" class="button" download>Download Resume</a></li>
-						</ul>
+							<h3>Ordered</h3>
+							<ol>
+								<li>Learned HTML, CSS, Python basics</li>
+								<li>Tutored peers in Computer Science in 2022</li>
+								<li>Completed foundational year at GISMA</li>
+								<li>Building skills in Java and Algorithms</li>
+								<li>Preparing for Bachelor's in CS/AI</li>
+							</ol>
 
-					</div>
-				</div>
-			</section>
+							<!-- Portfolio & Resume Section -->
+							<section>
+								<h3>Portfolio & Resume</h3>
+								<ul class="icons alt">
+									<!-- Resume Download -->
+									<li>
+										<a href="cv/Deepkamal-CV.pdf" class="icon solid fa-file-pdf" download>
+											<span class="label">Download Resume</span>
+										</a>
+									</li>
 
-		</div>
+									<!-- GitHub Portfolio -->
+									<li>
+										<a href="https://deepkamal1.github.io/Deepkamal-cs-portfolio1/" class="icon brands fa-github" target="_blank">
+											<span class="label">GitHub Portfolio</span>
+										</a>
+									</li>
+								</ul>
+							</section>
 
-		<!-- Footer -->
-		<footer id="footer" style="margin-top: 3em;">
-			<div class="row">
-				<div class="col-6">
+							<!-- Definition Section -->
+							<section>
+								<h3>Definition</h3>
+								<dl>
+									<dt>Frontend Development</dt>
+									<dd><p>Building user interfaces using HTML, CSS, and basic JavaScript.</p></dd>
+									<dt>Programming Basics</dt>
+									<dd><p>Understanding core concepts like loops, conditions, and functions using Python and C.</p></dd>
+									<dt>Tutoring Experience</dt>
+									<dd><p>Taught basic computing and programming to students, helping them understand logic and problem-solving.</p></dd>
+								</dl>
+							</section>
 
-					<section>
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" />
-								</div>
-								<div class="field">
-									<label for="email">Email</label>
-									<input type="text" name="email" id="email" />
-								</div>
-								<div class="field">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="3"></textarea>
-								</div>
-							</div>
+							<!-- Call-to-Action Buttons -->
 							<ul class="actions">
-								<li><input type="submit" value="Send Message" /></li>
+								<li><a href="https://github.com/deepkamal1" class="button primary" target="_blank">My GitHub</a></li>
+								<li><a href="cv/Deepkamal-CV.pdf" class="button" download>Download Resume</a></li>
 							</ul>
-						</form>
-					</section>
 
-				</div>
-
-				<div class="col-6">
-
-					<!-- Contact Info Section -->
-					<section class="split contact">
-						<section class="alt">
-							<h3>Address</h3>
-							<p>Wilhelmsruher Damm 126, Etage 02, Links<br />Berlin, Germany</p>
-						</section>
-						<section>
-							<h3>Phone</h3>
-							<p><a href="tel:+4917622864410">+49 176 22 86 44 10</a></p>
-						</section>
-						<section>
-							<h3>Email</h3>
-							<p><a href="mailto:deepkamal1218@gmail.com">deepkamal1218@gmail.com</a></p>
-						</section>
-						<section>
-							<h3>Social</h3>
-							<ul class="icons alt">
-								<li>
-									<a href="https://www.linkedin.com/in/deep-kamal-a1a34a270" class="icon brands fa-linkedin" target="_blank">
-										<span class="label">LinkedIn</span>
-									</a>
-								</li>
-								<li>
-									<a href="https://github.com/deepkamal1" class="icon brands fa-github" target="_blank">
-										<span class="label">GitHub</span>
-									</a>
-								</li>
-							</ul>
-						</section>
-					</section>
-
-				</div>
+						</div>
+					</div>
+				</section>
 			</div>
-		</footer>
 
-		<!-- Copyright -->
-		<div id="copyright">
-			<ul>
-			
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="row">
+					<!-- Left Column: About, Skills, CV Link -->
+					<div class="col-6">
+						<section>
+							<h2>About Me</h2>
+							<p>
+								I am a dedicated and curious learner with a strong foundation in Computer Science. I have experience tutoring basic computing concepts and programming. Currently, I am enhancing my skills in web development and software engineering.
+							</p>
+						</section>
+
+						<section>
+							<h2>Skills</h2>
+							<ul>
+								<li>Programming Languages: Python, C, basic Java</li>
+								<li>Web Development: HTML5, CSS3, basic JavaScript</li>
+								<li>Computer Fundamentals: Operating Systems, Networks, Databases</li>
+								<li>Problem Solving & Algorithmic Thinking</li>
+								<li>Data Structures & Object-Oriented Programming basics</li>
+							</ul>
+						</section>
+
+						<section>
+							<h2>My CV</h2>
+							<a href="cv/Deepkamal-CV.pdf" target="_blank" class="cv-link" download>
+								Download My Resume (PDF)
+							</a>
+						</section>
+					</div>
+
+					<!-- Right Column: Contact Form -->
+					<div class="col-6">
+						<section>
+							<h2>Contact Me</h2>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" required />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" required />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4" required></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+								</ul>
+							</form>
+						</section>
+					</div>
+				</div>
+
+				<!-- Back to Home Button -->
+				<div style="text-align:center;">
+					<a href="index.html" class="back-home">
+						<i class="fas fa-arrow-left"></i> Back to Home
+					</a>
+				</div>
+
+				<!-- Contact Info Section -->
+				<section class="split contact" style="margin-top: 3em;">
+					<section class="alt">
+						<h3>Address</h3>
+						<p>Wilhelmsruher Damm 126, Etage 02, Links<br />Berlin, Germany</p>
+					</section>
+					<section>
+						<h3>Phone</h3>
+						<p><a href="tel:+4917622864410">+49 176 22 86 44 10</a></p>
+					</section>
+					<section>
+						<h3>Email</h3>
+						<p><a href="mailto:deepkamal1218@gmail.com">deepkamal1218@gmail.com</a></p>
+					</section>
+					<section>
+						<h3>Social</h3>
+						<ul class="icons alt">
+							<li>
+								<a href="https://www.linkedin.com/in/deep-kamal-a1a34a270" class="icon brands fa-linkedin" target="_blank">
+									<span class="label">LinkedIn</span>
+								</a
