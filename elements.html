@@ -1,220 +1,205 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Skills and Experience - Deepkamal Singh</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
   <!-- FontAwesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
   <style>
-    /* Custom styles for layout */
     body {
-      font-family: 'Arial', sans-serif;
-      line-height: 1.6;
-      background: #f8f8f8;
-      color: #333;
-      margin: 0; padding: 0;
+      font-family: Arial, sans-serif;
+      background: #2c241c; /* dark brown-black */
+      color: #ddd;
+      margin: 0;
+      padding: 0;
     }
+
     #wrapper {
       max-width: 900px;
       margin: 20px auto;
-      background: white;
-      padding: 20px 40px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      border-radius: 8px;
+      background: #3a3229; /* lighter dark brown */
+      padding: 40px 50px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.7);
+      border-radius: 10px;
+      color: #ddd;
     }
+
+    #back-home {
+      display: inline-block;
+      margin-bottom: 30px;
+      color: #c9a66b;
+      text-decoration: none;
+      font-weight: 700;
+      border: 2px solid #c9a66b;
+      padding: 8px 14px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+    #back-home:hover {
+      background: #c9a66b;
+      color: #2c241c;
+    }
+    #back-home i {
+      margin-right: 6px;
+    }
+
     header#header {
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
     header#header .logo {
       font-size: 2em;
       font-weight: bold;
-      color: #007BFF;
+      color: #c9a66b;
       text-decoration: none;
     }
+
     nav#nav ul {
-      list-style-type: none;
+      list-style: none;
       padding-left: 0;
       margin-bottom: 20px;
     }
     nav#nav ul li {
-      padding: 6px 0;
+      margin-bottom: 8px;
       font-weight: 600;
+      color: #e6d8a3;
     }
-    #main section {
-      margin-bottom: 30px;
+    nav#nav p {
+      font-size: 1em;
+      margin-top: 15px;
+      color: #d1c6a1;
     }
-    h1, h2, h3 {
-      color: #007BFF;
+
+    #main section h1,
+    #main section h2,
+    #main section h3 {
+      color: #c9a66b;
+      margin-top: 20px;
+      margin-bottom: 10px;
     }
-    ul.icons.alt {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      gap: 20px;
+
+    #main section ul,
+    #main section ol {
+      margin-left: 20px;
+      margin-bottom: 20px;
+      color: #e6d8a3;
     }
-    ul.icons.alt li a {
-      font-size: 1.5em;
-      color: #007BFF;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-    }
-    ul.icons.alt li a:hover {
-      color: #0056b3;
-    }
-    ul.icons.alt li a .label {
-      margin-left: 8px;
-      font-weight: 600;
-      font-size: 0.9em;
-    }
-    .button.primary {
-      background-color: #007BFF;
-      color: white;
-      padding: 10px 18px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-      font-weight: 600;
-      display: inline-block;
-      margin-top: 10px;
-    }
-    .button.primary:hover {
-      background-color: #0056b3;
-    }
+
     .portfolio-resume {
-      margin: 20px 0;
+      margin: 30px 0;
       text-align: center;
     }
     .portfolio-resume a {
       font-size: 1.2em;
-      color: #007BFF;
+      color: #c9a66b;
+      font-weight: 700;
       text-decoration: none;
-      font-weight: bold;
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      border: 2px solid #007BFF;
-      padding: 10px 20px;
+      border: 2px solid #c9a66b;
+      padding: 12px 25px;
       border-radius: 6px;
-      transition: background-color 0.3s ease, color 0.3s ease;
+      transition: all 0.3s ease;
     }
     .portfolio-resume a:hover {
-      background-color: #007BFF;
-      color: white;
+      background: #c9a66b;
+      color: #2c241c;
     }
 
-    /* Contact Section Layout */
     footer#footer {
-      margin-top: 40px;
+      margin-top: 50px;
       display: flex;
       flex-wrap: wrap;
-      gap: 40px;
+      gap: 50px;
       justify-content: space-between;
     }
     footer#footer > section {
       flex: 1 1 320px;
       min-width: 280px;
+      color: #ddd;
     }
+
     footer#footer form {
-      background: #f0f4ff;
+      background: #4a3d2f;
       padding: 20px;
       border-radius: 8px;
-      box-shadow: 0 0 8px rgba(0,123,255,0.2);
+      box-shadow: 0 0 12px rgba(201,166,107,0.4);
+      color: #ddd;
     }
     footer#footer form .fields {
       display: flex;
       flex-direction: column;
       gap: 15px;
     }
-    footer#footer form .field label {
+    footer#footer form label {
       font-weight: 600;
-      margin-bottom: 5px;
+      margin-bottom: 6px;
       display: block;
+      color: #c9a66b;
     }
-    footer#footer form .field input,
-    footer#footer form .field textarea {
+    footer#footer form input,
+    footer#footer form textarea {
       width: 100%;
-      padding: 8px 10px;
-      border: 1px solid #ccc;
+      padding: 8px 12px;
+      border: 1px solid #c9a66b;
       border-radius: 5px;
       font-size: 1em;
       resize: vertical;
+      background: #3a3229;
+      color: #ddd;
     }
     footer#footer form ul.actions {
       margin-top: 15px;
-      padding-left: 0;
       list-style: none;
-      display: flex;
-      justify-content: flex-start;
+      padding-left: 0;
     }
     footer#footer form ul.actions li input[type="submit"] {
-      cursor: pointer;
-      background-color: #007BFF;
-      color: white;
+      background: #c9a66b;
+      color: #2c241c;
       border: none;
-      padding: 10px 25px;
-      border-radius: 5px;
-      font-weight: 600;
+      padding: 12px 30px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 700;
       transition: background-color 0.3s ease;
     }
     footer#footer form ul.actions li input[type="submit"]:hover {
-      background-color: #0056b3;
+      background: #a88643;
     }
 
-    /* Contact Info Section */
-    .split.contact section {
-      margin-bottom: 20px;
-    }
-    .split.contact h3 {
-      margin-bottom: 8px;
-      color: #007BFF;
-    }
-    .split.contact p,
-    .split.contact ul.icons.alt {
-      font-size: 1em;
-      color: #555;
-    }
-    .split.contact ul.icons.alt {
-      display: flex;
-      gap: 15px;
-      padding-left: 0;
+    footer#footer .icons.alt {
       list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 25px;
+      font-size: 1.8em;
     }
-    .split.contact ul.icons.alt li a {
-      font-size: 1.5em;
-      color: #007BFF;
+    footer#footer .icons.alt li a {
+      color: #c9a66b;
       text-decoration: none;
+      display: flex;
+      align-items: center;
+      transition: color 0.3s ease;
     }
-    .split.contact ul.icons.alt li a:hover {
-      color: #0056b3;
+    footer#footer .icons.alt li a:hover {
+      color: #a88643;
+    }
+    footer#footer .icons.alt li a .label {
+      font-size: 0.9em;
+      margin-left: 6px;
+      font-weight: 600;
+      color: #ddd;
     }
 
-    /* Back to Home Button */
-    #back-home {
-      display: inline-block;
-      margin-bottom: 25px;
-      cursor: pointer;
-      color: #007BFF;
-      font-weight: 700;
-      text-decoration: none;
-      font-size: 1em;
-      border: 2px solid #007BFF;
-      padding: 8px 14px;
-      border-radius: 6px;
-      transition: background-color 0.3s ease, color 0.3s ease;
-    }
-    #back-home:hover {
-      background-color: #007BFF;
-      color: white;
-    }
-
-    /* Responsive adjustments */
+    /* Responsive */
     @media (max-width: 700px) {
       footer#footer {
         flex-direction: column;
@@ -222,7 +207,7 @@
     }
   </style>
 </head>
-<body class="is-preload">
+<body>
 
   <div id="wrapper">
 
@@ -259,7 +244,7 @@
         <p>I am a dedicated and curious learner with a foundation in Computer Science. I have experience tutoring students in basic computing concepts and programming. I am comfortable working with HTML, CSS, Python, and C, and I understand core principles of data structures, algorithms, and computer systems. I continuously strive to expand my technical skills through hands-on practice, academic projects, and self-study. My goal is to apply my knowledge to solve real-world problems and build meaningful tech solutions.</p>
 
         <h2>Lists</h2>
-        <div class="row" style="display:flex; gap: 40px; flex-wrap: wrap;">
+        <div style="display:flex; gap: 40px; flex-wrap: wrap;">
           <div style="flex:1; min-width: 280px;">
             <h3>Unordered</h3>
             <ul>
@@ -270,7 +255,7 @@
             </ul>
 
             <h3>Alternate</h3>
-            <ul class="alt">
+            <ul style="list-style: none; padding-left: 0;">
               <li>Good understanding of Algorithms & Logic</li>
               <li>Worked with small academic projects</li>
               <li>Practiced using Visual Studio Code & Git</li>
@@ -291,12 +276,20 @@
       </section>
     </div>
 
-    <!-- CV Link Section -->
+    <!-- CV and Portfolio Link Section -->
     <section class="portfolio-resume">
-      <h3>My CV</h3>
-      <a href="https://www.overleaf.com/read/your-overleaf-doc-id" target="_blank" class="button primary" rel="noopener noreferrer">
-        <i class="fas fa-file-pdf"></i> View My CV Online
-      </a>
+      <h3>Useful Links</h3>
+      <div style="display: flex; justify-content: center; gap: 25px; flex-wrap: wrap;">
+        <a href="https://deepkamal1.github.io/Deepkamal-cs-portfolio1/" target="_blank" rel="noopener noreferrer" title="Visit my Portfolio Site">
+          <i class="fas fa-globe"></i> My Portfolio
+        </a>
+        <a href="https://www.linkedin.com/in/deep-kamal-a1a34a270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" title="Visit my LinkedIn Profile">
+          <i class="fab fa-linkedin"></i> LinkedIn Profile
+        </a>
+        <a href="https://www.overleaf.com/project/68546979e3cd4a250b4f6fb2" target="_blank" rel="noopener noreferrer" title="View my CV on Overleaf">
+          <i class="fas fa-file-pdf"></i> View My CV Online
+        </a>
+      </div>
     </section>
 
     <!-- Footer with Contact and Social Links -->
@@ -308,15 +301,33 @@
             <div class="fields">
               <div class="field">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Your Name" required />
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Your Name"
+                  required
+                />
               </div>
               <div class="field">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="your.email@example.com" required />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="your.email@example.com"
+                  required
+                />
               </div>
               <div class="field">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="5"
+                  placeholder="Write your message here..."
+                  required
+                ></textarea>
               </div>
             </div>
             <ul class="actions">
@@ -326,23 +337,46 @@
         </section>
 
         <section>
-          <h3>Find me on</h3>
+          <h3>Social</h3>
           <ul class="icons alt">
-            <li><a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i><span class="label">GitHub</span></a></li>
-            <li><a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i><span class="label">LinkedIn</span></a></li>
-            <li><a href="mailto:deepkamal1218@gmail.com"><i class="fas fa-envelope"></i><span class="label">Email</span></a></li>
-            <li><a href="tel:+4917622864410"><i class="fas fa-phone"></i><span class="label">Phone</span></a></li>
+            <li>
+              <a
+                href="mailto:deepkamal1218@gmail.com"
+                title="Email Me"
+                ><i class="fas fa-envelope"></i
+                ><span class="label">deepkamal1218@gmail.com</span></a
+              >
+            </li>
+            <li>
+              <a href="tel:+4917622864410" title="Call Me"
+                ><i class="fas fa-phone"></i
+                ><span class="label">+49 176 22 86 44 10</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/deepkamal-singh"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="GitHub Profile"
+                ><i class="fab fa-github"></i
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/deep-kamal-a1a34a270/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="LinkedIn Profile"
+                ><i class="fab fa-linkedin"></i
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
           </ul>
         </section>
       </section>
     </footer>
-
   </div>
-
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
